@@ -53,11 +53,12 @@ public struct DateGenHelper {
         let userCal = Calendar(identifier: .gregorian)
         
         let dayDateFormatter = DateFormatter()
-        dayDateFormatter.dateFormat = "EEEE"
+        dayDateFormatter.dateFormat = "E"
         let monthFormatter = DateFormatter()
         monthFormatter.dateFormat = "MMMM"
         let yearFormatter = DateFormatter()
         yearFormatter.dateFormat = "YYYY"
+        // Used to add suffix like `st`, `th` to dates
         let dayFormatter = NumberFormatter()
         dayFormatter.numberStyle = .ordinal
         
