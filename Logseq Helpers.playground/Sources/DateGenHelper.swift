@@ -55,7 +55,7 @@ public struct DateGenHelper {
         let dayDateFormatter = DateFormatter()
         dayDateFormatter.dateFormat = "E"
         let monthFormatter = DateFormatter()
-        monthFormatter.dateFormat = "MMMM"
+        monthFormatter.dateFormat = "MMM"
         let yearFormatter = DateFormatter()
         yearFormatter.dateFormat = "YYYY"
         // Used to add suffix like `st`, `th` to dates
